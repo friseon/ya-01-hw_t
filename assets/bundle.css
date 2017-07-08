@@ -79,8 +79,9 @@ a {
   text-align: center; }
 
 .promo {
-  background: url(./img/4.jpg);
+  background-image: url(./img/4.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   max-height: 1080px;
   width: 100%;
@@ -288,6 +289,6 @@ a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .promo {
-    background: url(./img/4-2x.jpg) no-repeat; } }
+    background-image: url(./img/4-2x.jpg); } }
 
 /*# sourceMappingURL=bundle.css.map*/
